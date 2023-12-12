@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"  # Replace with the command to build your project
+  publish = "dist"  # Replace with the directory to publish
+
+[context.production.environment]
+  # Add environment variables for your production build
+  NODE_ENV = "production"
+
+[context.split1]
+  command = "split1_build_command"  # Replace with the command for a specific context
+  publish = "split1_publish_directory"  # Replace with the directory to publish for the specific context
+
+# Add more contexts if needed
+
+# Additional settings...
