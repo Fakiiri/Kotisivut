@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"  # Replace with the command to build your project
-  publish = "dist"  # Replace with the directory to publish
+  publish = "."  # Replace with the directory to publish
 
 [context.production.environment]
   # Add environment variables for your production build
