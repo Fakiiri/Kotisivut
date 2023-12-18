@@ -424,13 +424,10 @@ there.
 
 #pelti1 {
   display: none;
-  background-image: url(../images/musta-keltainen.jpg);
 }
 
 #pelti2 {
   display: none;
-  background-image: url(../images/musta-keltainen.jpg);
-
 }
 
 #kolmoset a {
@@ -441,18 +438,20 @@ font-style: oblique;
 
 #teline {
   display: none;
-  background-image: url(../images/Kyykkyteline.jpg);
-
 }
 
 /* Larger than mobile */
 @media (min-width: 400px) {
   #pelti1 {
     display: none;
+    /*     background-image: url(../images/musta-keltainen.jpg);
+ */
   }
   
   #pelti2 {
     display: none;
+    /*     background-image: url(../images/musta-keltainen.jpg);
+ */
   }
 
   #teline {
@@ -469,14 +468,10 @@ font-style: oblique;
 @media (min-width: 550px) {
   #pelti1 {
     display: none;
-    background-image: url(../images/musta-keltainen.jpg);
-
   }
   
   #pelti2 {
     display: none;
-    background-image: url(../images/musta-keltainen.jpg);
-
   }
 
   #teline {
@@ -496,8 +491,6 @@ font-style: oblique;
     left: 15px;
     bottom: 100px;
     display: block;
-    background-image: url(../images/musta-keltainen.jpg);
-
   }
   
   #pelti2 {
@@ -505,14 +498,10 @@ font-style: oblique;
     right: 15px;
     bottom: 100px;
     display: block;
-    background-image: url(../images/musta-keltainen.jpg);
-
   }
 
   #teline {
     display: inline-block;
-    background-image: url(../images/Kyykkyteline.jpg);
-
   }
 
   #top {
@@ -539,8 +528,6 @@ font-style: oblique;
 
   #teline {
     display: inline-block;
-    background-image: url(../images/Käsipainoteline.jpg);
-
   }
 
   #top {
