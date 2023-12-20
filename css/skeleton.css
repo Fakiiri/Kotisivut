@@ -125,6 +125,8 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; /* Lihavoidaan fontti */  
   background-image: url(../images/tiiliseinä.jpg);}
 .twelve.columns {
   text-align: center;
