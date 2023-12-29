@@ -442,6 +442,12 @@ font-style: oblique;
   display: none;
 }
 
+#yksilotarjous {
+  font-size: 120%;
+  font-style: oblique;
+  font-display: #158;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
   #pelti1 {
