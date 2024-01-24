@@ -21,6 +21,41 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <style>
+    form {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+      background-color: #5379fa;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #3251a8;
+
+  }
+  </style>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -72,11 +107,17 @@
     </div>
 
     <div class="row">
-        <div class="two columns">
-            <h3><br><br>Minä:</h3>
+        <div class="two columns", id="tuotteetTwoColumns">
+            <h3><br><br>Jätä yhteystietosi tiimillemme</h3>
         </div>
         <div class="six columns">
-            <h3><br><br>"Huonossa kunnossa oleminen on haastavaa. Kovaa treenaaminen on haastavaa. Valitse haasteesi".</h3>
+            <h3>
+              <form name="kontaktit" netlify>
+                <input type="hidden" name="form-name" value="kontaktit">
+                <input type="text" name="name" placeholder="Nimi" required>
+                <input type="email" name="email" placeholder="Sähköposti" required>
+                <button type="submit">Jätä yhteydenottopyyntö</button>
+            </h3>
         </div>
         <div class="three columns">
             <h3>"Voit olla sama sinä kuin nyt, vielä kahden vuoden päästäkin."</h3>
@@ -85,7 +126,7 @@
     </div>
     <div class="row">
         <div class="twelve columns" style="background-color: black;" id="footer">
-            <p><a href="https://www.tiktok.com/@aleksantericoaching?lang=fi-FI">@aleksantericoaching <a href="https://www.facebook.com/profile.php?id=100075934670898">fb: @Aleksanteri coaching</a></p>
+            <p><a href="https://www.tiktok.com/@aleksantericoaching?lang=fi-FI">tiktok: @aleksantericoaching <a href="https://www.facebook.com/profile.php?id=100075934670898">fb: @Aleksanteri coaching</a></p>
         </div>
     </div>
     </div>
