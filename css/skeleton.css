@@ -432,10 +432,15 @@ there.
   display: none;
 }
 
+#kolmosetTuotteetOtsikko {
+  padding-left: 30px;
+}
+
 #kolmoset a {
 color: darkorange;
 font-size: x-large;
 font-style: oblique;
+padding-left: 35px;
 }
 
 #teline {
@@ -495,6 +500,10 @@ font-style: oblique;
   #teline {
     display: inline-block;
   }
+
+#tuotteetTwoColumns {
+  display: none;
+}
 
   #top {
     font-size: 120%;
@@ -574,6 +583,10 @@ font-style: oblique;
   }
 
   #teline {
+    display: inline-block;
+  }
+
+  #tuotteetTwoColumns {
     display: inline-block;
   }
   
